@@ -4,13 +4,13 @@ class Pattern {
         Scanner inp = new Scanner(System.in);
         int num = inp.nextInt();
         for (int i = num; i >= 1; i--){
-            int k = 1;
+            int k = num-i;
             for (int j = num; j >= 1; j--){
                 if(i >= j)
                     System.out.print(i + " ");
                 else
                     System.out.print((i+k) + " ");
-                k++;
+                k--;
             }
             System.out.println();
         }
