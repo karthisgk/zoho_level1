@@ -10,8 +10,8 @@ class Pattern {
                     System.out.print(i + " ");
                 else
                     System.out.print((i+k) + " ");
+                k++;
             }
-            k++;
             System.out.println();
         }
     }
